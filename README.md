@@ -1,84 +1,46 @@
-# [Material Tailwind Kit React](https://demos.creative-tim.com/material-tailwind-kit-react/#/?ref=readme-mtkr)
+# Getting Started with Create React App
 
-![version](https://img.shields.io/badge/version-1.1.0-blue.svg) [![GitHub issues open](https://img.shields.io/github/issues/creativetimofficial/material-tailwind-kit-react.svg?maxAge=2592000)](https://github.com/creativetimofficial/material-tailwind-kit-react/issues?q=is%3Aopen+is%3Aissue) [![GitHub issues closed](https://img.shields.io/github/issues-closed-raw/creativetimofficial/material-tailwind-kit-react.svg?maxAge=2592000)](https://github.com/creativetimofficial/material-tailwind-kit-react/issues?q=is%3Aissue+is%3Aclosed)
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-![Image](https://s3.amazonaws.com/creativetim_bucket/products/486/original/opt_mtrk_thumbnail.jpg?1622709620)
+## Available Scripts
 
-Material Tailwind Kit React is a free and open-source UI Kit based on two popular front-end technologies: Tailwind CSS & React. It was built to simplify the developer's work in the quest of creating intuitive interfaces.
+In the project directory, you can run:
 
-Material Tailwind has 4 pre-built example pages. From landing pages to profile, login and register, you will be able to set up the basic structure for your web project quickly.
+### `npm start`
 
-## Table of Contents
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
--   [Versions](#versions)
--   [Demo](#demo)
--   [Quick Start](#quick-start)
--   [Documentation](#documentation)
--   [File Structure](#file-structure)
+The page will reload if you make edits.\
+You will also see any lint errors in the console.
 
+### `npm test`
 
-## Versions
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-[<img src="https://github.com/creativetimofficial/public-assets/blob/master/logos/react.jpg?raw=true" width="60" height="60" />](https://www.creative-tim.com/product/material-tailwind-kit-react?ref=readme-mtkr)
-| React |
-| ----- |
+### `npm run build`
 
-| [![Material Tailwind Kit React](https://s3.amazonaws.com/creativetim_bucket/products/486/original/opt_mtrk_thumbnail.jpg?1622709620)](https://demos.creative-tim.com/material-tailwind-kit-react/#/?ref=readme-mtkr)
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-## Demo
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
--   [Landing page](https://demos.creative-tim.com/material-tailwind-kit-react/#/landing?ref=readme-mtkr)
--   [Profile page](https://demos.creative-tim.com/material-tailwind-kit-react/#/profile?ref=readme-mtkr)
--   [Login page](https://demos.creative-tim.com/material-tailwind-kit-react/#/login?ref=readme-mtkr)
--   [Register page](https://demos.creative-tim.com/material-tailwind-kit-react/#/register?ref=readme-mtkr)
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-## Quick start
+### `npm run eject`
 
-Quick start options:
+**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
 
--   Download from [Creative Tim](https://www.creative-tim.com/product/material-tailwind-kit-react?ref=readme-mtkr).
-## Documentation
+If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Material Tailwind Kit React build using Material Tailwind and the documentation of Material Tailwind is hosted at [Material Tailwinl](https://material-tailwind.com/documentation/quick-start?ref=readme-mtkr).
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
 
-### What's included
+You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-Within the download you'll find the following directories and files:
+## Learn More
 
-```
-Material Tailwind Kit React
-    ├── material-tailwind-kit-react
-    │   ├── public
-    │   │   ├── index.html
-    │   │   ├── favicon.ico
-    │   │   └── apple-icon.png
-    │   ├── src
-    │   │   ├── assets
-    │   │   │   ├── img/
-    │   │   │   └── styles/
-    │   │   ├── components
-    │   │   │   ├── landing/
-    │   │   │   ├── login/
-    │   │   │   ├── profile/
-    │   │   │   ├── DefaultFooter.js
-    │   │   │   ├── DefaultNavbar.js
-    │   │   │   └── SimpleFooter.js
-    │   │   ├── Pages
-    │   │   │   ├── Landing.js
-    │   │   │   ├── Login.js
-    │   │   │   ├── Profile.js
-    │   │   │   └── Register.js
-    │   │   ├── App.js
-    │   │   ├── App.test.js
-    │   │   ├── index.js
-    │   │   ├── reportWebVitals.js
-    │   │   └── setup.test.js
-    │   ├── CHANGELOG.md
-    │   ├── jsconfig.json
-    │   ├── LICENSE
-    │   ├── package.json
-    │   ├── postcss.config.js
-    │   ├── README.md
-    │   ├── tailwind.config.js
-    │   ├── yarn.lock
-```
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+
+To learn React, check out the [React documentation](https://reactjs.org/).
