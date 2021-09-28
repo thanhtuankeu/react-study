@@ -1,7 +1,7 @@
 import { cleanup } from "@testing-library/react";
 import React, { useEffect, useState } from "react";
 
-function ProgressPlanning() {
+function Boom() {
   // Minesweeper
   //generate field
   const [field, setField] = useState({
@@ -30,4 +30,4 @@ function ProgressPlanning() {
   );
 }
 
-export default ProgressPlanning;
+export default Boom;
