@@ -1,9 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import './generated.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import './tailwind.css';
 
 ReactDOM.render(
   <React.StrictMode>
